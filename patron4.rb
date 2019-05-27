@@ -1,11 +1,11 @@
 var = ARGV[0].to_i
 
 var.times do |i|
-  if i%4 == 0
-    print '*'
-  elsif i%4 == 1
-    print '.'
+  if i%3 == 0
+    print 1
+  elsif i%3 == 1
+    print 2
   else
-    print '$'
+    print 3
   end
 end
